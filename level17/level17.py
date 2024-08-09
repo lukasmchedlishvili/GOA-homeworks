@@ -14,5 +14,9 @@ for i in range(10):
     print('even')
     print('odd')
 
+number = int(input('Enter number: '))
+guess_number = int(input('Guess the: '))
 
+while number != guess_number:
+    guess_again_number = int(input('Guess again the number: '))
 
